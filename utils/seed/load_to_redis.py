@@ -4,7 +4,7 @@ from types import ListType, DictionaryType
 
 
 def populate(r):
-    f = open("utils/zones.json")
+    f = open("utils/seed/zones.json")
     data = json.load(f)
     f.close()
 
