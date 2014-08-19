@@ -1,4 +1,4 @@
-package org.jarsonmar.awesomud;
+package org.jarsonmar.awesomud.concierge;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-class Listener {
+public class ConciergeServer {
 
    public static class ListenThread implements Runnable {
       private final Socket sock;
@@ -45,7 +45,7 @@ class Listener {
 
    }
 
-   public static void main(String[] args) {
+   public static void listen() {
       try (ServerSocket srv = new ServerSocket(6725)) {
          System.err.println("My Java is better than yours");
 
