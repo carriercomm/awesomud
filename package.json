@@ -13,7 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^0.9.0",
+    "events": "^1.0.2",
     "hiredis": "^0.1.17",
+    "lodash": "^2.4.1",
     "randgen": "^0.1.0",
     "redis": "^0.12.1"
   }
