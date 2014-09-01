@@ -5,6 +5,10 @@ var redis = require('redis'),
     _ = require('lodash'),
     rnorm = require('randgen').rnorm;
 
+/*
+ * NOTE: early POC stages!
+ */
+
 var ns = 'org.jarsonmar.awesomud';
 
 var mobiles = [];
