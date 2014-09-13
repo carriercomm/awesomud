@@ -5,5 +5,5 @@ Run a redis server locally.
 ```
 python utils/seed/load_to_redis.py
 npm install
-node mud.js
+node lib/awesomud.js
 ```
