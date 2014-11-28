@@ -19,5 +19,5 @@ def populate(r):
             r.set(key, data[key])
 
 if __name__ == '__main__':
-    r = redis.StrictRedis(host='localhost', port=6379, db=0)
+    r = redis.StrictRedis(host='0.0.0.0', port=6379, db=0)
     populate(r)
