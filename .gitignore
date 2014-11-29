@@ -5,3 +5,6 @@
 /bin/
 /build/
 /node_modules/
+/utils/service/*/supervise/
+/.pid/*.pid
+/dump.rdb

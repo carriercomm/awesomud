@@ -5,5 +5,18 @@ Run a redis server locally.
 ```
 python utils/seed/load_to_redis.py
 npm install
-node lib/awesomud.js
+```
+
+# Running (with daemontools)
+
+To start the scheduler service (with daemontools):
+
+```
+supervise utils/service/scheduler
+
+```
+
+To restart all the services:
+```
+./utils/service/reset.sh
 ```

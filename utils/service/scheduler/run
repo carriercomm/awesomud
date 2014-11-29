@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ../../../
+node lib/awesomud.js
