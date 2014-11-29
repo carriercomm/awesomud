@@ -9,7 +9,7 @@ npm install
 
 # Running (with daemontools)
 
-To start the scheduler service (with daemontools):
+To start the scheduler service:
 
 ```
 supervise utils/service/scheduler
